@@ -17,7 +17,24 @@ camp_site = ["Crystal Lake", 404, 89.3, True]
 me = camping_list[4]
 friend = camping_list[-2]
 
-print(me)
-print(friend)
+#print(me)
+#print(friend)
+
+#print(camping_list)
+
+
+#append method only allows one new piece of data to be added at a time
+#camping_list.append("toilet paper")
+#camping_list.append("bidet")
+
+#extend method allows to "extend" the list by adding more to it, see: brackets / add a new list to an existing list
+#camping_list.extend(["toilet paper", "bidet"])
+
+#alternative way:
+#camping_list = camping_list + ["toilet paper", "bidet"]
+
+#adding new list in a specific spot on the already created list:
+camping_list.insert(0, "bidet")
+camping_list.insert(-1, "toilet paper")
 
 print(camping_list)
