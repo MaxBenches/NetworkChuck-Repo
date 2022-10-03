@@ -37,4 +37,19 @@ friend = camping_list[-2]
 camping_list.insert(0, "bidet")
 camping_list.insert(-1, "toilet paper")
 
+#Removing stuff with Python commands
+#Command below removes everything from said list
+#camping_list.clear()
+
+#Command below removes a specific piece af data
+#camping_list.remove("tent")
+#camping_list.remove("sleeping bags")
+
+#Command below will remove pieces of data from list via index numbers
+#camping_list.pop(0)
+#camping_list.pop(0)
+
+#.pop command will return the value of the index that was removed
+print("This items was just deleted: " + camping_list.pop(0))
+
 print(camping_list)
